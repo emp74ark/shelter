@@ -1,0 +1,42 @@
+.not-only {
+  background: $background__image_header;
+  background-size:cover;
+  position: relative;
+  height: 908px;
+  h2 {
+    position: absolute;
+    top: 343px;
+    left: 40px;
+    width: 320px;
+    font-family: $font__family_serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 130%;
+    color: #FFFFFF;
+  }
+  img {
+    display: block;
+    position: absolute;
+    top: 180px;
+    right: 40px;
+  }
+  .button__big-dark{
+    position: absolute;
+    top: 613px;
+    left: 40px;
+  }
+}
+.not-only__text {
+  position: absolute;
+  top: 499px;
+  left: 40px;
+  width: 460px;
+  font-family: $font__family_sans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 0.17px;
+  line-height: 160%;
+  color: #CDCDCD;
+}

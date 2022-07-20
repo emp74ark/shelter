@@ -1,0 +1,87 @@
+.button__big-dark {
+  width:fit-content; 
+  background: #F1CDB3;
+  border-radius: 100px;
+  padding: 15px 45px;
+  font-family: $font__family_serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 130%;
+  letter-spacing: 1px;
+  color: #292929;
+  cursor: pointer;
+  a {
+    color: #292929;
+  }
+  &:hover{
+    background: #FDDCC4;
+  }
+}
+.button__big-light {
+  margin: 0 auto;
+  box-sizing: border-box;
+  width: 187px;
+  height: 52px;
+  padding: 15px;
+  border: 2px solid #F1CDB3;
+  border-radius: 100px;
+  font-family: $font__family_serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 130%;
+  letter-spacing: 1px;
+  color: #292929;
+  text-align: center;
+  cursor: pointer;
+  a {
+    color: #292929;
+  }
+  &:hover {
+    background: #FDDCC4;
+  }
+}
+.button__small-light {
+  box-sizing: border-box;
+  width: 52px;
+  height: 52px;
+  border-radius: 100px;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  letter-spacing: 0.06em;
+  text-align: center;
+  padding: 13px 0px;
+  border: 2px solid #F1CDB3;
+  color: #292929;
+  cursor: pointer;
+  &:hover {
+    background: #FDDCC4;
+  }
+}
+.button__small-light_inactive {
+  border: 2px solid #CDCDCD;
+  color: #CDCDCD;
+  cursor: not-allowed;
+}
+.button__small-light_current{
+  background: #F1CDB3;
+  color: #292929;
+}
+#button-left{
+  background-image: url("../assets/icons/Arrow-left.png");
+  background-repeat: no-repeat;
+  background-size:  30%;
+  background-position: center;
+  cursor: pointer;
+}
+#button-right{
+  background-image: url("../assets/icons/Arrow-right.png");
+  background-repeat: no-repeat;
+  background-size:  30%;
+  background-position: center;
+  cursor: pointer;
+}

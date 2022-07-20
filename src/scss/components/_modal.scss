@@ -1,0 +1,68 @@
+.modal__wrapper {
+  display: block;
+  width: 952px;
+  height: 552px;
+  position: fixed;
+  left: calc(50% - 476px);
+  top: calc(50% - 226px);
+  z-index: 100;
+  .button__small-light{
+    float: right;
+    transform: rotate(45deg);
+  }
+}
+.modal__card {
+  display: flex;
+  flex-direction: row;
+  width: 900px;
+  position: relative;
+  top: 52px;
+  background: #FAFAFA;
+  border-radius: 9px;
+  box-shadow: 0px 2px 35px 14px rgba(13, 13, 13, 0.04);
+  img {
+    width: 500px;
+    height: 500px;
+    border-radius: 9px 0px 0px 9px;
+  }
+}
+.modal__card-content{
+  width: 351px;
+  h3 {
+    font-family: $font__family_serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #000000;
+    margin: 50px 30px 10px 30px;
+  }
+  .modal__card-type {
+    font-family: $font__family_serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    color: #000000;
+    margin: 0px 30px;
+  }
+  .modal__card-text {
+    width: 350px;
+    font-family: $font__family_serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 110%;
+    letter-spacing: 0.06em;
+    color: #000000;
+    margin: 40px 20px 40px 30px;
+    ul {
+      margin: 40px 0px;
+      li {
+        margin: 11px 0px;
+      }
+    }
+  }
+}

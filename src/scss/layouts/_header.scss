@@ -1,0 +1,51 @@
+header {
+  left: 40px;
+  right: 40px;
+  z-index: 100;
+}
+.logo__name {
+  font-family: $font__family_serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 110%;
+  letter-spacing: 1.9px;
+}
+.logo__slogan {
+  font-family: $font__family_sans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 1.25px;
+  margin: 10px 3px;
+}
+.header__dark{
+  position: absolute;
+  top: 60px;
+  .logo__name {
+    color: #F1CDB3;
+    a{
+      color: #F1CDB3;
+    }
+  }
+  .logo__slogan{
+    color: #FFFFFF;
+  }
+}
+.header__light{
+  position: sticky;
+  top: 0px;
+  background: #FFFFFF;
+  height: 90px;
+  padding: 31px 40px 0px 40px;
+  .logo__name {
+    color: #545454;
+    a{
+      color: #545454;
+    }
+  }
+  .logo__slogan{
+    color: #292929;
+  }
+}

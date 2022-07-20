@@ -1,0 +1,27 @@
+// base
+@import "../../node_modules/normalize-scss/sass/normalize";
+@import "./base/variables";
+@import "./base/fonts";
+
+// layouts
+@import "./layouts/body";
+@import "./layouts/header";
+@import "./layouts/nav";
+@import "./layouts/not-only";
+@import "./layouts/about";
+@import "./layouts/our-friends";
+@import "./layouts/help";
+@import "./layouts/donation";
+@import "./layouts/footer";
+
+// components
+@import "./components/buttons";
+@import "./components/modal";
+
+// pages
+@import "./pages/main";
+@import "./pages/pets";
+
+// media
+@import "./media/320px";
+@import "./media/768px";

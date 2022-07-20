@@ -1,0 +1,63 @@
+.donation {
+  position: relative;
+  height: 462px;
+  background: $background__color_dark;
+}
+.donation__image {
+  position: absolute;
+  top: 91px;
+  left: 183px;
+}
+.donation__text {
+  position: absolute;
+  top: 80px;
+  left: 718px;
+  width: 370px;
+  h3 {
+    font-family: $font__family_serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 2.2px;
+    color: #545454;
+  }
+  h5 {
+    font-family: $font__family_serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 110%;
+    letter-spacing: 0.8px;
+    color: #545454;
+    margin: 20px 0px;
+  }
+  font-family: $font__family_sans;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #B2B2B2;
+}
+.donation__card{
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  width: 349px;
+  height: 43px;
+  background: #F1CDB3;
+  border-radius: 9px;
+  padding: 10px 15px;
+  font-family: $font__family_serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  // letter-spacing: 1.2px;
+  color: #545454;
+  vertical-align: middle;
+  margin: 20px 0px;
+  a {
+    color: #545454;
+  }
+}

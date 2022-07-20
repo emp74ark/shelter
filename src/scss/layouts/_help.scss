@@ -1,0 +1,52 @@
+.help {
+  position: relative;
+  height: 611px;
+  background: $background__color_light;
+  h3 {
+    position: absolute;
+    top: 80px;
+    left: 486px;
+    font-family: $font__family_serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: 2.1px;
+    color: #545454;
+  }
+  h4 {
+    font-family: $font__family_serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    text-align: center;
+    letter-spacing: 1.1px;
+    color: #545454;
+  }
+}
+.help__wrapper {
+  position: absolute;
+  top: 230px;
+  left: 127px;
+  right: 127px;
+  width: 1040px;
+  display: flex;
+  flex-wrap: wrap;
+  flex: none;
+  align-items: baseline;
+  justify-content: center;
+  gap: 43px 120px;
+}
+.help__wrapper-item{
+  height: 113px;
+}
+.help__wrapper-item-image{
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+.help__wrapper-item-text{
+  margin: 20px 0px;
+}

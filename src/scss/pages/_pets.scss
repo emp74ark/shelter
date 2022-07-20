@@ -1,0 +1,40 @@
+main {
+  background: #FFFFFF;
+}
+.our-pets {
+  background: #F6F6F6;
+  position: relative;
+  height: 1342px;
+  h3 {
+    position: absolute;
+    top: 80px;
+    left: 440px;
+    right: 440px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #545454;
+  }
+}
+.our-pets__wrapper {
+  position: absolute;
+  top: 230px;
+  left: 40px;
+  right: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px 40px;
+}
+.our-pets__buttons {
+  position: absolute;
+  top: 1190px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}

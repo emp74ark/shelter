@@ -1,0 +1,277 @@
+@media (max-width: 767px){
+// main page
+  body {
+    width: 100%;
+  }
+  header {
+    left: 10px;
+    right: 53px;
+  }
+  .header__dark{
+    top: 30px;
+    .burger__button {
+      display: block;
+      position: absolute;
+      top: 20px;
+      right: 0px;
+    }
+  }
+  .nav__dark {
+    display: none;
+  }
+  .not-only {
+    height: 823px;
+    h2 {
+      top: 150px;
+      width: 220px;
+      left: calc(50% - 110px);
+      font-size: 25px;
+      line-height: 130%;
+      text-align: center;
+      letter-spacing: 1.8px;
+    }
+    img {
+      width: 260px;
+      top: 551px;
+      right: 2%;
+    }
+    .button__big-dark{
+      top: 394px;
+      left: calc(50% - 103px);
+    }
+  }
+  .not-only__text {
+    top: 256px;
+    // left: 10px;
+    left: calc(50% - 150px);
+    right: 10px;
+    width: 300px;
+    font-size: 15px;
+    text-align: center;
+  }
+  .about {
+    height: 974px;
+    img {
+      top: 578px  ;
+      width: 260px;
+      left: calc(50% - 130px)
+    }
+    h3 {
+      top: 42px;
+      width: 300px;
+      left: calc(50% - 150px);
+      font-size: 25px;
+      text-align: center;
+      letter-spacing: 1.8px;
+    }
+  }
+  .about__text {
+    top: 131px;
+    width: 270px;
+    left: calc(50% - 135px);
+    font-size: 15px;
+  }
+  .our-friends {
+    height: 791px;
+    h3 {
+      top: 42px;
+      width: 300px;
+      left: calc(50% - 150px);
+      font-size: 25px;
+      letter-spacing: 1.8px;
+    }
+  }
+  #button-left{
+    top: 603px;
+    left: calc(50% - 118px);
+    z-index: 10;
+  }
+  #button-right{
+    top: 603px;
+    left: calc(50% + 59px);
+    z-index: 10;
+  }
+  .our-friends__carousel{
+    top: 148px;
+    left: calc(50% - 135px);
+    width: 270px;
+    height: 507px;
+  }
+  .button__big-dark {
+    top: 697px;
+    left: calc(50% - 130px);
+  }
+  .help {
+    height: 745px;
+    h3 {
+      top: 42px;
+      width: 240px;
+      left: calc(50% - 120px);
+      font-size: 25px;
+    }
+    h4 {
+      font-size: 15px;
+    }
+  }
+  .help__wrapper {
+    top: 148px;
+    width: 290px;
+    left: calc(50% - 145px);
+    display: flex;
+    flex-wrap: wrap;
+    flex: none;
+    align-items: baseline;
+    justify-content:space-between;
+    gap: 15px 15px;
+  }
+  .help__wrapper-item{
+    height: 87px;
+    width: 130px;
+  }
+  .donation {
+    height: 542.2px;
+    h3 {
+      font-size: 25px;
+      text-align: center;
+    }
+    h5 {
+      text-align: center;
+      letter-spacing: 0.2px;
+    }
+  }
+  .donation__image {
+    top: 365px;
+    width: 260px;
+    left: calc(50% - 130px);
+  }
+  .donation__text {
+    top: 42px;
+    width: 285px;
+    left: calc(50% - 142.5px);
+  }
+  .donation__card{
+    width: 281px;
+    font-size: 15px;
+    line-height: 110%;
+    color: #545454;
+    vertical-align: middle;
+    align-items: center;
+  }
+  footer {
+    height: 809px;
+    h3 {
+      font-size: 25px;
+      text-align: center;
+    }
+    h4 {
+      font-size: 20px;
+    }
+  }
+  .contacts {
+    top: 30px;
+    width: 278px;
+    height: 208px;
+    left: calc(50% - 139px);
+  }
+  .address {
+    top: 278px;
+    width: 278px;
+    left: calc(50% - 139px);
+    height: 222px;
+  }
+  .contacts__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    a {
+      color: #F1CDB3;
+    }
+  }
+  .footer__image {
+    top: 540px;
+    width: 260px;
+    left: calc(50% - 130px);
+  }
+  // pets page
+  .header__light{
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 90px;
+    padding: 30px 0px 10px 10px;
+    .burger__button {
+      display: block;
+      position: absolute;
+      top: 47px;
+      right: 53px;
+    }
+  }
+  .nav__light {
+    display: none;
+  }
+  .our-pets {
+    height: 1769px;
+    h3 {
+      top: 42px;
+      left: 10px;
+      right: 10px;
+      font-size: 25px;
+      text-align: center;
+    }
+  }
+  .our-pets__wrapper {
+    top: 268px;
+    width: 270px;
+    left: calc(50% - 135px);
+    display: flex;
+    justify-content: space-between;
+    gap: 30px 40px;
+  }
+  .our-pets__buttons {
+    top: 1675px;
+    gap: 10px;
+  }
+  // modal
+  .modal__wrapper {
+    width: 271px;
+    height: 393px;
+    left: calc(50% - 135px);
+    top: calc(50% - 200px);
+  }
+  .modal__card {
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    // height: calc(100% - 52px);
+    top: 0px;
+    border-radius: 9px;
+    img {
+      display: none;
+    }
+  }
+  .modal__card-content{
+    width: 351px;
+    h3 {
+      width: 240px;
+      text-align: center;
+      margin: 10px 10px;
+    }
+    .modal__card-type {
+      width: 240px;
+      text-align: center;
+      margin: 0px 0px;
+    }
+    .modal__card-text {
+      text-align: justify;
+      width: 220px;
+      margin: 10px 10px 10px 10px;
+      ul {
+        margin: 10px 0px;
+        li {
+          margin: 6px 0px;
+        }
+      }
+    }
+  }
+}

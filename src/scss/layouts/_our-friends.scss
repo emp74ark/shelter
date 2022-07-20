@@ -1,0 +1,63 @@
+.our-friends {
+  position: relative;
+  height: 877px;
+  background: $background__color_dark;
+  h3 {
+    position: absolute;
+    top: 80px;
+    width: 400px;
+    left: calc(50% - 200px);
+    text-align: center;
+    font-family: $font__family_serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    display: flex;
+    text-align: center;
+    letter-spacing: 2.15px;
+    color: #545454;
+  }
+}
+#button-left{
+  position: absolute;
+  top: 422px;
+  left: 40px;
+}
+#button-right{
+  position: absolute;
+  top: 422px;
+  right: 40px;
+}
+.our-friends__carousel{
+  position: absolute;
+  top: 230px;
+  left: 92px;
+  right: 92px;
+  height: 435px;
+  display: flex;
+  justify-content: space-around;
+}
+.our-friends__card {
+  width: 270px;
+  height: 435px;
+  background: #FAFAFA;
+  border-radius: 9px;
+}
+.card__name {
+  font-family: $font__family_serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.9px;
+  color: #545454;
+  margin: 26px 0px 28px 0px;
+}
+.button__big-dark {
+  margin: 0 auto;
+  position: absolute;
+  top: 725px;
+  left: 510px;
+}
